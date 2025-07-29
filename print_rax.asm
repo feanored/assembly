@@ -1,6 +1,6 @@
 section .data
 codes: 		db 		'0123456789ABCDEF'
-newline: 	db  	10
+newline: 	db 		10
 
 section .text
 global _start

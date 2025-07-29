@@ -11,5 +11,7 @@ RUN apk update && apk add \
 WORKDIR /codigo
 CMD [ "bash" ]
 
-# docker build -t alpine-asm .
-# docker run -it --rm -v .:/codigo alpine-asm
+
+# Build & Run Container
+# docker build -t feanored/alpine-asm .
+# docker run --name alpine-asm -v .:/codigo feanored/alpine-asm
